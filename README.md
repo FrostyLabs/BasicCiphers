@@ -16,6 +16,7 @@ rot13.html - JavaScript ROT13 Cipher
 base64.html - JavaScript Base64 Encoder
 
 morse.html - JavaScript Morse Code Encoder
+
 ----
 
 JavaScript is used to create the functionality of the cipher pages. Feel free to try them out!

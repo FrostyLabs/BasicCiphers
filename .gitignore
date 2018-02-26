@@ -12,7 +12,7 @@
 *.cb2
 *.tex
 
-report/*
+Report/*
 
 ## Intermediate documents:
 *.dvi

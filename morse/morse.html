@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../cwstyle.css"> 
+		<title>Morse Encoder</title> 
+	</head>
+	<body> 
+		<div class="header"> 
+			<h1> Coursework: Morse Encoder </h1> 
+		</div> 
+		<div class="navbar">
+		  <a href="../index.html">Index</a>
+		  <a href="../design.html">Design</a>
+		  <div class="dropdown">
+			<button class="dropbtn">Ciphers 
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			  <a href="../rot13/rot13.html">ROT13 Cipher</a>
+			  <a href="../Base64/base64.html">Base64 Cipher</a>
+			  <a href="#">Morse Cipher</a>
+			</div>
+		  </div> 
+		</div>
+	<div class="column side"> 
+	</div> 
+	<div class="column middle">
+		<h2>Information on Morse Cipher </h2>
+		<p>Morse code is interesting because it is a method of transmitting text as a series of <b>short-or-long tones</b>, named after Samuel F. B. Morse. 
+		Morse Code encodes ISO basic Latin alphabet with some extra Latin letters, Arabic numerals, and small set of punctuation.
+		However this example will only encode letters for you. Note that text <b>will</b> be translated to lowercase. 
+		Many people recognize SOS Morse code: <br>...   ---   ... / 
+		<br>Note that all letters will be converted to lower case </p>
+
+		<h3>Morse Cipher Encoder and Decoder</h3> 
+		<div id="input_area"> 
+			
+			
+			<textarea placeholder="Text to be Morse Encoded/Decoded"  autofocus id="message"></textarea><br  />
+			<div class="btn">
+				<button class="button" type="submit" onclick="encode()">Encode</button>
+				<button class="button" type="submit" onclick="decode()">Decode</button>
+			</div>
+		</div> 
+		<div id="output_area"> 
+			<h4> 
+			This is your encoded / decoded message: </h4>
+			<p><div id="output"></div></p> 
+		</div> 
+		<script type="text/javascript" src="morse.js"></script> 
+	</div> 
+	
+<div class="footer">
+  <p>Author: Oliver Thornewill von Essen </p>
+  <p>Date: 26 Feb 2018 </p>
+</div>
+</body>
+</html> 

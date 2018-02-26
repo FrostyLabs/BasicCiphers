@@ -1,0 +1,195 @@
+body {
+		background-color: #07051A;
+		font-family:  Helvetica, Verdana, Arial;
+		color: white;
+		margin: 0;
+		padding-bottom:200px;
+		}
+
+h1 {
+	color: #3A3A3A;
+	font-size: 32px;
+}
+h2 {
+	color: white;
+	font-size: 28px;
+}
+
+h3 { 
+	color: white;
+	font-size: 28px;
+}
+
+button {
+	cursor: pointer;
+}
+
+textarea{
+	border:2px solid orange;
+	width: 50%; 
+	margin:10px 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+	display: block;
+}
+
+img {
+	padding:4px;
+	border:2px solid #33A0A3;
+	background-color: #07051A; 
+	float: middle;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Style the content*/ 
+.content {
+	padding: 0% 25% 0% 2% 
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 15%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 70%;
+	padding-bottom: 152px;
+}
+
+.rot13 {
+	float: left; 
+	padding: 10px;
+}
+
+.rot13.info {
+	width: 40%;
+}
+
+.rot13.left {
+	width: 60%;
+}
+
+/* /* Clear floats after the columns */ */
+/* .row:after { */
+    /* content: ""; */
+    /* display: table; */
+    /* clear: both; */
+/* } */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+
+/* Style the footer */
+
+.footer-partent {
+	font-size: larger; 
+	padding-top: 40px; 
+	clear: both; 
+	text-align: center; 
+}
+
+.footer {
+	position: fixed;
+	left: 0px; 
+	bottom: 0px;
+	width: 100%; 
+    background-color: #f1f1f1;
+	padding: 0px 15%;
+    text-align: left;
+	color: black;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #33A0A3;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #424242;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+

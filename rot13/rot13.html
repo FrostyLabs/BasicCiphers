@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../cwstyle.css"> 
+		<title>ROT13 Encoder</title> 
+	</head>
+	<body> 
+		<div class="header"> 
+			<h1> Coursework: ROT13 Encoder </h1> 
+		</div> 
+		<div class="navbar">
+		  <a href="../index.html">Index</a>
+		  <a href="../design.html">Design</a>
+		  <div class="dropdown">
+			<button class="dropbtn">Ciphers 
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			  <a href="#">ROT13 Cipher</a>
+			  <a href="../Base64/base64.html">Base64 Cipher</a>
+			  <a href="../morse/morse.html">Morse Cipher</a>
+			</div>
+		  </div> 
+		</div>
+	<div class="column side"> 
+	</div> 
+	<div class="column middle">
+		<h2> Information on ROT13 </h2>
+		<p>ROT13 stands for rotation-13. This menas that it rotates the letters around the alphabet by 13 positions (half of the alphabet)
+		An example is that "A" maps to "N" because N is the 13th letter <strong>after</strong> "A" in the alphabet. 
+		Interestingly as the English alphabet has only 26 letters, this means that a ROT13 encoder is at the same time a decoder - 
+		it just needs to rotate one more time to get the other half of the alphabet.
+		The ROT13 cipher is used in various places such in public forums when sharing spoilers to for example a TV show. 
+		<br />Note that this page will only accept the letters: <br />"a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z" <br /><b> and</b> will be converted to lower case</p>
+		<h3>ROT13 Encoder and Decoder</h3> 
+		<div id="input_area"> 
+			<textarea placeholder="Text to be ROT13 Encoded/Decoded"  autofocus id="message"></textarea><br  />
+			<div class="btn">
+				<button class="button" type="submit" onclick="encode()">Go</button>
+			</div>
+		</div> 
+		<div id="output_area"> 
+			<h4> 
+			This is your encoded / decoded message:</h4> 
+			<p><div id="output"></div> </p>			 
+		</div> 
+		<script type="text/javascript" src="rot13.js"></script> 
+	</div> 
+	
+<div class="footer">
+  <p>Author: Oliver Thornewill von Essen </p>
+  <p>Date: 26 Feb 2018 </p>
+</div>
+</body>
+</html> 

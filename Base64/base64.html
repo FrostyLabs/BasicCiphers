@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../cwstyle.css"> 
+		<title>Base64 Cipher</title> 
+		<script type="text/javascript" src="base64.js"></script> 
+		<meta charset="utf-8">
+	</head>
+	<body> 
+		<div class="header"> 
+			<h1> Coursework: Base64 Encoder </h1> 
+		</div> 
+		<div class="navbar">
+		  <a href="../index.html">Index</a>
+		  <a href="../design.html">Design</a>
+		  <div class="dropdown">
+			<button class="dropbtn">Ciphers 
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			  <a href="../rot13/rot13.html">ROT13 Cipher</a>
+			  <a href="#">Base64 Cipher</a>
+			  <a href="../morse/morse.html">Morse Cipher</a>
+			</div>
+		  </div> 
+		</div>
+	<div class="column side"> 
+	</div> 
+	<div class="column middle">
+		<h2> Information on Base64 </h2>
+		<p>Base64 is a text encoding scheme that represents binary data in ASCII string formats.
+		Base64 was originally used in mail transfer because it is hard to be changed by malicious users. 
+		<br />Note that this page will only accept the letters: <br />"a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z" <br /><b> and</b> will be converted to lower case</p>
+		This is because there are 64 characters in the characterset which are common and printable. 
+		
+		<h3>Base64 Encoder and Decoder</h3> 
+		<textarea placeholder="Text to be Base64 Encoded/Decoded"  autofocus id="message"></textarea><br  />
+		<div class="btn">
+		  <button class="button" type="submit" onclick="encrypt(this)">Encode</button>
+		  <button class="button" type="submit" onclick="decrypt(this)">Decode</button>
+		</div>
+		<h4>This is your encoded / decoded message:</h4> 
+		<p id="result"></p>
+		
+		
+	</div> 
+	</body>
+<div class="footer">
+  <p>Author: Oliver Thornewill von Essen </p>
+  <p>Date: 26 Feb 2018 </p>
+</div>
+</body>
+</html> 

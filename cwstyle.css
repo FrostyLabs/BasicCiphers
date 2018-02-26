@@ -1,0 +1,188 @@
+body { /* Styles the Body */
+		background-color: #07051A;
+		font-family:  Helvetica, Verdana, Arial;
+		color: white;
+		margin: 0;
+		padding-bottom:200px;
+		}
+
+h1 { /* Styles the h1 */
+	color: #3A3A3A;
+	font-size: 32px;
+}
+h2 { /* Styles the h2 */
+	color: white;
+	font-size: 28px;
+}
+
+h3 { /* Styles the h3 */
+	color: white;
+	font-size: 28px;
+}
+
+p { /* Style the paragraph */
+	max-width: 650px;
+}
+
+div { /* Styles the div */
+	display: block;
+}
+
+img { /* Styles the images */
+	padding:4px;
+	border:2px solid #33A0A3;
+	background-color: #07051A; 
+	float: middle;
+}
+
+textarea{ /* Styles the textbox */
+	border:2px solid orange;
+	width: 50%; 
+	margin:10px 0px;
+	max-width: 500px;
+	padding: 12px 20px;
+	margin: 8px 0;
+    border-radius: 4px;
+}
+
+.btn .button { /* Styles the button */
+    background-color: #ddd; /* Green */
+    border: none;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn .button:hover { /* Styles the button when hovered */
+    background-color: #33A0A3;
+    color: white;
+}
+
+.center { /* Makes items go center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+
+.header { /* Style the header */
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.content { /*Style the content*/ 
+	padding: 0% 25% 0% 2% 
+}
+
+.column { /* Create three unequal columns that floats next to each other */
+    float: left;
+    padding: 10px;
+}
+
+.column.side { /* Left and right column */
+    width: 15%;
+}
+
+
+.column.middle { /* Middle column
+					make sure that width here will be 100-(2x width from column.side)*/
+    width: 70%;
+	padding-bottom: 84px;
+}
+
+
+@media (max-width: 600px) { /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+
+/* Start styling of footer */
+
+.footer-partent {
+	font-size: larger; 
+	padding-top: 40px; 
+	clear: both; 
+	text-align: center; 
+}
+
+.footer {
+	position: fixed;
+	left: 0px; 
+	bottom: 0px;
+	width: 100%; 
+    background-color: #f1f1f1;
+	padding: 0px 15%;
+    text-align: left;
+	color: black;
+}
+
+/* End styling of footer */
+
+.navbar { /* Style the navbar */
+    overflow: hidden;
+    background-color: #ddd;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown { /* Styles the dropdown position */
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn { /* Styles the top level dropdown */
+    font-size: 16px;    
+    border: none;
+    padding: 14px 16px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn { /* 	Styles for when users 
+												hover their mouse over dropdown item */
+    background-color: #33A0A3;
+    color: white;
+}
+
+.dropdown-content { /* Styles the way the dropdown shows up of the dropdown */
+    display: none;
+    position: absolute;
+    background-color: #ddd;
+    z-index: 1; /* Make sure it appears on top */
+}
+
+
+.dropdown-content a { /* Styles the items of the dropdown */
+    float: none;
+	min-width: 73px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover { /* 	Styles for when users 
+								hover their mouse over dropdown item */
+    background-color: #33A0A3;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+

@@ -12,7 +12,7 @@
 *.cb2
 *.tex
 
-Report/*
+Report/
 Report/report.tex
 
 ## Intermediate documents:

@@ -12,9 +12,6 @@
 *.cb2
 *.tex
 
-Report/
-Report/report.tex
-
 ## Intermediate documents:
 *.dvi
 *-converted-to.*

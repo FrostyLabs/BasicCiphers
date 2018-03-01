@@ -20,3 +20,7 @@ morse.html - JavaScript Morse Code Encoder
 ----
 
 JavaScript is used to create the functionality of the cipher pages. Feel free to try them out!
+
+# Report
+
+I have removed Report/report.tex because it was causing issues with the repository language. As this is an HTML project the language should be HTML. I have left Report/report.pdf up, and will be keeping Report/report.tex locally. This edit was made after the submission of this coursework.
